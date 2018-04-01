@@ -1,7 +1,6 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-#define LIMIT 30
 
 // PROTOTIPOS
 void printx(int, char*);
@@ -9,14 +8,14 @@ void printxin(void);
 
 // MAIN
 int main(void) {
-	printxin();
+	printxin(30);
 
 	return 0;
 }
 
 // PRINTX CON INPUT
-void printxin(void) {
-	char* string = malloc(LIMIT * sizeof(char));
+void printxin(int limit) {
+	char string[limit];
 	int* times = malloc(sizeof(int));
 	
 	printf("string: ");
