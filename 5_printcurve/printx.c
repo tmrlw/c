@@ -1,17 +1,13 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-#include "printx.h"
 
-// PROTOTIPOS
-void printx(int, char*);
-void printxin(int);
-
-// MAIN
-int main(void) {
-	printxin(30);
-
-	return 0;
+// PRINT X VECES
+void printx(int times, char* string) {
+	for (int i = 0; i < times; i++) {
+		printf("%s", string);
+	}
+	printf("\n");
 }
 
 // PRINTX CON INPUT
@@ -25,12 +21,4 @@ void printxin(int limit) {
 	scanf("%i", times);
 
 	printx(*times, string);
-}
-
-// PRINT X VECES
-void printx(int times, char* string) {
-	for (int i = 0; i < times; i++) {
-		printf("%s", string);
-	}
-	printf("\n");
 }
