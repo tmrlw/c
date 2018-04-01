@@ -1,5 +1,4 @@
-# c
-.
+c
 ├── 1_writeto99
 │   ├── ints0to99.txt
 │   ├── writeto99
