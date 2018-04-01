@@ -10,5 +10,15 @@ c
 │   └── rw.c
 ├── 3_printtimes
 │   ├── printx
-│   └── printx.c
+│   ├── printx.c
+│   └── printx.h
+├── 4_capitalize
+│   ├── cap
+│   └── cap.c
+├── 5_printcurve
+│   ├── printc
+│   ├── printc.c
+│   ├── printx
+│   ├── printx.c
+│   └── printx.h
 └── README.txt
