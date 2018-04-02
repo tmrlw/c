@@ -10,5 +10,18 @@ c
 │   └── rw.c
 ├── 3_printtimes
 │   ├── printx
-│   └── printx.c
+│   ├── printx.c
+│   └── printx.h
+├── 4_capitalize
+│   ├── cap
+│   └── cap.c
+├── 5_printparab
+│   ├── printparab
+│   ├── printparab.c
+│   ├── printx.c
+│   └── printx.h
+├── 6_chessboard
+│   ├── chessboard
+│   └── chess.c
 └── README.txt
+
